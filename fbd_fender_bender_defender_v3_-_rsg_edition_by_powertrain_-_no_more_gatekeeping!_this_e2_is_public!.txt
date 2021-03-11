@@ -64,7 +64,7 @@ if(first()|duped()){
     #For adding extra models, that don't fall into one of the categories above. Feel Free to keep this up to date as more and more models get added.
     
     "models/flak/ge_hi-ad.mdl"
-    
+   ,"models/monkatraztrainprops/trucks/aar_type_a.mdl"   
     )
     signalSetGroup("FBD")
     runOnSignal("Disable",0,LazyMode)
@@ -298,12 +298,12 @@ if(Enable_True){
             if(Type){
                 #GSG
                 Corner1 = LoPoint + vec(0,-20,0)
-                Corner2 = LoPoint*vec(-0.5,0,0.5) + vec(0,20,0)
+                Corner2 = LoPoint*vec(-1,0,1) + vec(0,20,0)
                 Dir = Specimen:forward() + Specimen:right()
             }else{
                 #Mag
                 Corner1 = LoPoint + vec(20,0,0)
-                Corner2 = LoPoint*vec(-0.5,0,0.5) + vec(-20,0,0)
+                Corner2 = LoPoint*vec(-1,0,1) + vec(-20,0,0)
                 Dir = Specimen:forward() - Specimen:right()
             }
             rangerFilter(Specimen)
