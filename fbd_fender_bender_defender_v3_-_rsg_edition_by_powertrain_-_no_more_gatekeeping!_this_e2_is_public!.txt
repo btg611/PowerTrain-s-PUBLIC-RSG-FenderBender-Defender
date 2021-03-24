@@ -1,4 +1,4 @@
-@name FBD Fender Bender Defender V3 - RSG Edition by PowerTrain - NO MORE GATEKEEPING! THIS E2 IS PUBLIC!
+@name FBD Fender Bender Defender V3 - RSG Edition by PowerTrain
 @inputs Enable Active MPH
 @outputs EmBrake CycleTime TruckCount Running Analyzing RTD_Counter Enable_True PCS_Open
 @persist Trucks:array TruckTypes:array W:entity O:entity AUTOPARENT SpeedThreshold Index RTD FreezeOnDerail Running Initialized Interval Derail MarkerColor:vector
